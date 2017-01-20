@@ -11,7 +11,7 @@ class NavBar extends React.Component {
 				{ this.props.user.loggedIn
 					?
 						<div className="nav-link">
-							<Link to="/"> {this.props.cart.productsInCart.length} items in cart - ${ MAth.floor(this.props.cart.runningTotal)}</Link>
+							<Link to="/"> {this.props.cart.productsInCart.length} items in cart - ${ Math.floor(this.props.cart.runningTotal)}</Link>
 						</div>
 					:
 						<div className="nav-link">

@@ -6,7 +6,7 @@ import "./Login.css";
 
 import { login } from "../../ducks/userDuck";
 
-class Login extends React.component {
+class Login extends React.Component {
 	constructor( props ) {
 		super( props );
 

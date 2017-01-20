@@ -10,6 +10,6 @@ export default class Product extends React.Component {
 				<h3>Price: ${ this.props.price }</h3>
 				<button onClick={ this.props.addToCart }>Add to Cart</button>
 			</div>
-		)
+		);
 	}
 }
