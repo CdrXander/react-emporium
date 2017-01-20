@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import { Link } from "react-router";
 import './NavBar.css';
 
-export default class NavBar extends React.Component {
+class NavBar extends React.Component {
 	render() {
 		return (
 			<nav>

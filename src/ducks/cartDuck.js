@@ -11,7 +11,7 @@ export default function reducer( state = initialState, action) {
 	switch(action.type) {
 		case ADD_PRODUCT:
 			return {
-				productsInCart: [...state.productsInCart], action.product],
+				productsInCart: [...state.productsInCart, action.product],
 				runningTotal: state.runningTotal + action.product.price
 			}
 		case REMOVE_PRODUCT:

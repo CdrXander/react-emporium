@@ -17,12 +17,12 @@ document.addEventListener ("DOMContentLoaded", () => {
 		ReactDOM.render(
 			<Provider store={ store }>
 				<Router history={browserHistory}>
-					<Route path="/" component{ App }>
-						<Route path="/login" component { Login }/>
-						<Route path="/shop" component { Shop }/>
+					<Route path="/" component={ App }>
+						<Route path="/login" component={ Login }/>
+						<Route path="/shop" component={ Shop }/>
 					</Route>
 				</Router>
 			</Provider>
-		)
+		, reactNode);
 	}	
 });
